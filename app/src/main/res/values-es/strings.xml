@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_version">versión</string>
+
+    <string name="activity_device">Dispositivo</string>
+    <string name="activity_light">Luz</string>
+    <string name="activity_automation">Automatización</string>
+    <string name="activity_ipcam">Cámara IP</string>
+    <string name="activity_temperature">Temperatura</string>
+    <string name="activity_scenario">Guión</string>
+    <string name="activity_energy">Consumo de energía</string>
+    <string name="activity_sound">Sistema de sonido</string>
+    <string name="activity_profiles">Perfiles</string>
+    <string name="activity_settings">Configuraciones</string>
+
+    <string name="menu_save">Salvar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Borrar</string>
+    <string name="menu_debug">Depurar</string>
+    <string name="menu_apply">Aplicar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_profile_logout">Cerrar sesión</string>
+    <string name="fab_profile_label_create">Crear</string>
+    <string name="fab_profile_label_reset">Reiniciar</string>
+
+    <string name="drawer_menu_favourite">Favoritos</string>
+    <string name="drawer_menu_add">Añadir entorno</string>
+    <string name="drawer_menu_profile">Profils</string>
+    <string name="drawer_menu_settings">Configuraciones</string>
+    <string name="drawer_menu_donation">Donación</string>
+    <string name="drawer_menu_changelog">Changelogs</string>
+    <string name="drawer_menu_example">Ambiente de ejemplo</string>
+
+    <string name="dialog_add_environment_title">Añadir entorno</string>
+    <string name="dialog_edit_environment_title">Editar entorno</string>
+    <string name="dialog_environment_name">Nombre</string>
+    <string name="dialog_device_confirmation_title">Solicitud de confirmacion</string>
+    <string name="dialog_device_confirmation_message">\nEstás seguro?</string>
+    <string name="dialog_profile_create_title">"Crear perfil "</string>
+    <string name="dialog_profile_create_name">Nombre</string>
+    <string name="dialog_profile_reset_title">"Restablecer perfil "</string>
+    <string name="dialog_profile_logout_title">Cerrar sesión</string>
+    <string name="dialog_profile_switch_title">"Aplicar perfil "</string>
+    <string name="dialog_profile_switch_message">Todos los cambios no guardados en el perfil actual serán eliminados y sobrescritos. Estás seguro?</string>
+    <string name="dialog_profile_delete_title">"Borrar perfil "</string>
+    <string name="dialog_profile_delete_message">Ya no podrás acceder y aplicar este perfil.\n\nEstás seguro?</string>
+    <string name="dialog_donation_title">Donación</string>
+    <string name="dialog_donation_tax">" Las donaciones están exentas de impuestos y pueden variar de un país a otro"</string>
+
+    <string name="error_load_navigation_drawer">Error al cargar el cajón de navegación</string>
+    <string name="error_authentication">"Autenticación fallida "</string>
+    <string name="error_connection">" Conexión no disponible"</string>
+    <string name="error_request">Solicitud fallida</string>
+    <string name="error_profile_max">"Número máximo de perfiles permitidos excedidos "</string>
+
+    <string name="validation_required">"Campo requerido "</string>
+    <string name="validation_host">"Dirección IP o dominio no válido "</string>
+    <string name="validation_port">"Rango de puerto no válido "</string>
+    <string name="validation_url">URL invalida</string>
+    <string name="validation_bad_value">Valor no permitido</string>
+
+    <string name="settings_category_shortcuts">"Atajos "</string>
+    <string name="settings_title_wireless">Conexiones inalámbricas</string>
+    <string name="settings_category_gateway">Gateway</string>
+    <string name="settings_gateway_add">Añadir Gateway</string>
+    <string name="settings_gateway_default">Gateway por defecto</string>
+    <string name="settings_gateway_default_dialog">Elija el Gateway por defecto</string>
+    <string name="dialog_gateway_host">Host*</string>
+    <string name="dialog_gateway_host_hint">"Dirección IP o Dominio "</string>
+    <string name="dialog_gateway_port">Port*</string>
+    <string name="dialog_gateway_port_default">20000</string>
+    <string name="dialog_gateway_password">"Contraseña (opcional) "</string>
+    <string name="dialog_gateway_password_hint">"Contraseña "</string>
+    <string name="dialog_gateway_password_default">Deje este campo vacío a menos que sea necesario.\nLa contraseña predeterminada es 12345.</string>
+    <string name="settings_category_debug">Depurar</string>
+    <string name="settings_debug_device_title">"Mensajes de dispositivo de depuración "</string>
+    <string name="settings_debug_device_summary">"Mostrar demora y valor de respuesta. "</string>
+    <string name="settings_category_temperature">"Temperatura "</string>
+    <string name="settings_temperature_default">"Escala de temperatura por defecto "</string>
+    <string name="settings_temperature_default_dialog">"Elija la escala de temperatura "</string>
+    <string name="settings_category_info">Información</string>
+    <string name="settings_info_terms_conditions">Términos y Condiciones</string>
+    <string name="settings_info_privacy_policy">"Política de privacidad "</string>
+
+    <string name="button_add">"Añadir "</string>
+    <string name="button_edit">Editar</string>
+    <string name="button_delete">Borrar</string>
+    <string name="button_close">Cerrar</string>
+    <string name="label_none">Ninguna</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_missing_gateway">Gateway que falta</string>
+
+    <string name="bs_title">Añadir</string>
+    <string name="bs_device">Dispositivo</string>
+    <string name="bs_light">Luz</string>
+    <string name="bs_automation">"Automatización "</string>
+    <string name="bs_temperature">"Temperatura "</string>
+    <string name="bs_ipcam">"Cámara IP "</string>
+    <string name="bs_scenario">"Guión "</string>
+    <string name="bs_energy">Poder\nConsumo</string>
+    <string name="bs_sound">Sonar\nSistema</string>
+
+    <string name="list_empty">No se encontraron artículos</string>
+    <string name="device_where">dónde</string>
+    <string name="device_favourite">"Favorito "</string>
+    <string name="device_confirm">"Mostrar alerta de confirmación "</string>
+    <string name="device_on_load">Enviar solicitud en evento de carga</string>
+    <string name="device_accept">"Sé lo que estoy haciendo! (Renuncia) "</string>
+    <string name="device_request">Solicitud</string>
+    <string name="device_response">Respuesta</string>
+    <string name="device_response_paste">Pegar</string>
+    <string name="device_value">valor</string>
+    <string name="device_expected_value">valor esperado</string>
+    <string name="device_debug_label_invalid">Pasta inválida</string>
+    <string name="light_request">Solicitar Activar</string>
+    <string name="light_info_area">"Valores permitidos: 00, 1–9, 100 "</string>
+    <string name="light_info_group">"Valores permitidos: 1–255 "</string>
+    <string name="light_info_point_to_point">Donde = Area + ID de luz</string>
+    <string name="light_label_general">General</string>
+    <string name="light_label_area">"Zona "</string>
+    <string name="light_label_group">"Grupo "</string>
+    <string name="light_label_point_to_point">Punto a punto</string>
+    <string name="automation_request">Parada discrecional</string>
+    <string name="ipcam_url">Url</string>
+    <string name="ipcam_url_help">Ejemplo <i>http://192.168.1.100:2222/videostream.cgi</i>\nSi necesita ayuda para identificar la URL, lea esta <a href="https://github.com/niqdev/ipcam-view/wiki">guide</a></string>
+    <string name="ipcam_authentication">Autenticación</string>
+    <string name="ipcam_username">Nombre de usuario</string>
+    <string name="ipcam_password">Contraseña</string>
+    <string name="ipcam_stream_mjpeg">MJPEG</string>
+    <string name="ipcam_stream_error">Error de conexión</string>
+    <string name="temperature_request">Temperatura de solicitud</string>
+    <string name="scenario_request">"Solicitud de inicio "</string>
+    <string name="scenario_support">"Soporta MH200N y MH202 "</string>
+    <string name="energy_request">"Solicitar consumo de energía "</string>
+    <string name="energy_instantaneous_power">"Potencia instantánea: "</string>
+    <string name="energy_daily_power">Potencia diaria:</string>
+    <string name="energy_monthly_power">"Potencia mensual: "</string>
+    <string name="energy_info_best_effort">La puerta de enlace no siempre responde correctamente y algunos valores pueden ser parciales o incorrectos.\nAdemás, debe mantener este componente separado del otro para evitar desaceleraciones.</string>
+    <string name="sound_request">Solicitar Activar</string>
+    <string name="sound_info_amplifier_group">"Valores permitidos: 0–9 "</string>
+    <string name="sound_info_amplifier_point_to_point">Valores permitidos: 01–99</string>
+    <string name="sound_info_source_point_to_point">Valores permitidos: 101-109</string>
+    <string name="sound_label_amplifier_general">Amplificateur: général</string>
+    <string name="sound_label_amplifier_group">Amplificateur: groupe</string>
+    <string name="sound_label_amplifier_point_to_point">Amplificador: punto a punto</string>
+    <string name="sound_label_source_general">Fuente: general</string>
+    <string name="sound_label_source_point_to_point">Fuente: punto a punto</string>
+
+    <string name="card_device_debug_delay">Retrasar:</string>
+    <string name="card_device_debug_timeunit">milisegundos</string>
+    <string name="card_device_debug_copy">Copiar</string>
+    <string name="card_device_debug_none">ninguna respuesta</string>
+    <string name="card_device_debug_clipboard_copied">Respuesta copiada</string>
+
+    <string name="donation_coffee_name">Café</string>
+    <string name="donation_coffee_description">"Un café para mantenerme despierto cuando programo durante la noche! "</string>
+    <string name="donation_beer_name">Cerveza</string>
+    <string name="donation_beer_description">Una cerveza fría para aumentar mi productividad!</string>
+    <string name="donation_pizza_name">Pizza</string>
+    <string name="donation_pizza_description">Una pizza para hacerme feliz!</string>
+    <string name="dialog_profile_reset_message">" Su perfil actual y todos los cambios no guardados se eliminarán permanentemente del teléfono"</string>
+    <string name="dialog_profile_logout_message">\nEstás seguro?</string>
+</resources>
